@@ -1,6 +1,6 @@
-package domain.tarifa;
+package edu.pingpong.cotxox.tarifa;
 
-import org.foobarspam.cotxox.carrera.Carrera;
+import edu.pingpong.cotxox.carrera.Carrera;
 
 public class Tarifa {
 

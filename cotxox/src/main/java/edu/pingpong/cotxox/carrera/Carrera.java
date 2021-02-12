@@ -1,20 +1,20 @@
-package domain.carrera;
+package edu.pingpong.cotxox.carrera;
 
 public class Carrera {
 
-    String targetaCredito = "";
-    String origen = "";
-    String destino = "";
+    String targetaCredito = null;
+    String origen = null;
+    String destino = null;
     double distancia = 0d;
     int tiempoEsperado = 0;
     int tiempoCarrera = 0;
     double costeTotal = 0;
     int propina = 0;
 
-    Carrera(String targeta){
+    public Carrera(String targeta){
 
     }
-    public String getTargetaCredito(){
+    public String getTarjetaCredito(){
 
     }
     public void setOrigen(String nuevoOrigen){
@@ -63,6 +63,15 @@ public class Carrera {
 
     }
     public double getCosteTotal(){
+        
+    }
+    public void recibirPropina(int propina){
+
+    }
+    public int getPropina(){
+
+    }
+    public void liberarConductor(){
         
     }
 

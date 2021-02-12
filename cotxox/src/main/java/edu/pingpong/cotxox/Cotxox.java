@@ -1,11 +1,11 @@
-package org.foobarspam.cotxox;
+package edu.pingpong.cotxox;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.foobarspam.cotxox.carrera.Carrera;
-import org.foobarspam.cotxox.conductores.Conductor;
-import org.foobarspam.cotxox.conductores.PoolConductores;
+import edu.pingpong.cotxox.carrera.Carrera;
+import edu.pingpong.cotxox.conductores.Conductor;
+import edu.pingpong.cotxox.conductores.PoolConductores;
 
 public class Cotxox {
 
