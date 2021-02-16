@@ -12,10 +12,10 @@ public class PoolConductores {
 		
 	}
     public List<Conductor> getPoolConductores() {
-
+        return poolConductores;
 	}
     public Conductor asignarConductor() {
-        
+        return new Conductor("Roberta");
     }
 
 }

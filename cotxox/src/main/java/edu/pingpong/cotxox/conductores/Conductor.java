@@ -16,37 +16,37 @@ public class Conductor{
 
     }
     public String getNombre(){
-
+        return "";
     }
     public String getModelo(){
-
+        return "";
     }
     public void setModelo(String nuevoModelo){
 
     }
     public String getMatricula(){
-
+        return "";
     }
     public void setMatricula(String nuevaMatricula){
 
     }
     public double getValoracion(){
-
+        return 3;
     }
     public int getNumeroValoraciones(){
-
+        return 3;
     }
     public void setValoracion(byte nuevaValoracion){
 
     }
     private double calcularValoracionMedia(){
-
+        return 4;
     }
     public void setOcupado(boolean estado){
 
     }
     public boolean isOcupado(){
-        
+        return true;
     }
 
 }
