@@ -2,7 +2,7 @@ package edu.pingpong.cotxox;
 
 import static org.junit.Assert.*;
 import java.util.ArrayList;
-import java.awt.List;
+import java.util.List;
 
 import edu.pingpong.cotxox.carrera.Carrera;
 import edu.pingpong.cotxox.conductores.Conductor;
@@ -110,7 +110,7 @@ public class CarreraTest {
         
         Carrera carrera = new Carrera("fhyuj");
 
-        List<Conductor> listaConductores = new ArrayList<Conductor>();
+        List<Conductor> listaConductores = new ArrayList<>();
         listaConductores.add(new Conductor("Ramon"));
         listaConductores.add(new Conductor("Juan"));
         listaConductores.add(null);
